@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.greenbg-color-1 {
+    background-color: #ADCC3A;
+}
+
+.greenbg-color-2 {
+    background-color: #86AF22;
+}
+
+.greenbg-color-3 {
+    background-color: #546023;
+}
+
+.greenbg-color-4 {
+    background-color: #42210B;
+}
+
+// md screen size
+@media screen and (min-width: 768px) {
+    .blurDiv:hover {
+        .blurImg:not(:hover) {
+            filter: blur(1px);
+        }
+    }
+}
+
+@layer utilities {
+    .margin-0 {
+        margin: 0 !important;
+    }
+}
