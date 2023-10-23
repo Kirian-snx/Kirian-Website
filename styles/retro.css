@@ -1,18 +1,17 @@
 /* styles/retro.css */
 
-body {
-    background-color: #f1f1f1; /* Retro background color */
-    font-family: 'Courier New', Courier, monospace; /* Retro font-family */
-    color: #333; /* Dark gray text color */
-  }
-  
-  h1 {
-    font-size: 24px; /* Retro font size */
-    color: #ff66cc; /* Retro font color */
-  }
-  
-  p {
-    font-size: 16px; /* Retro font size */
-    color: #3399ff; /* Retro font color */
-  }
-  
+body.retro {
+  background-color: #444; /* Another shade of dark gray */
+  color: #ffcc00; /* Retro yellow text */
+  font-family: 'Courier New', Courier, monospace; /* Retro font-family */
+}
+
+h1.retro {
+  font-size: 24px; /* Retro font size */
+  color: #ff66cc; /* Retro font color */
+}
+
+p.retro {
+  font-size: 16px; /* Retro font size */
+  color: #3399ff; /* Retro font color */
+}

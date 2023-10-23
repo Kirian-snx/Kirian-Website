@@ -1,0 +1,50 @@
+/* styles/page.css */
+
+/* Base page styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    transition: transform 0.3s;
+    transform: translateY(0);
+  }
+  
+  .header.visible {
+    transform: translateY(0);
+  }
+  
+  .header.hidden {
+    transform: translateY(-100%);
+  }
+  /* Example of adding more space to sections */
+  .home {
+    padding: 20px; /* Increase padding to add more space around content */
+  }
+
+/* Example of additional styles for headings */
+h1 {
+  font-size: 28px; /* Adjust font size for headings */
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+/* Example of additional styles for paragraphs */
+p {
+  font-size: 18px; /* Adjust font size for paragraphs */
+  color: #3399ff;
+  margin-bottom: 10px; /* Increase spacing between paragraphs */
+}
+
+/* Additional styling can be added to enhance the design of your page. */
+  

@@ -1,9 +1,10 @@
+/* components/CustomCursor.js */
+
 import { useEffect, useState } from 'react';
 
 const CustomCursor = ({ era }) => {
-  const [cursorStyle, setCursorStyle] = useState('none');
-  const [cursorSize, setCursorSize] = useState('20px');
-  const [cursorBorder, setCursorBorder] = useState('2px solid #0070f3'); // Default border
+  const [cursorSize, setCursorSize] = useState('10px');
+  const [cursorBorder, setCursorBorder] = useState('2px solid #ff66cc'); // Retro cursor border
 
   useEffect(() => {
     // Define cursor styles for different eras
@@ -25,18 +26,17 @@ const CustomCursor = ({ era }) => {
     // Update cursor styles based on the era
     setCursorSize(eraStyles[era].cursorSize);
     setCursorBorder(eraStyles[era].cursorBorder);
-
   }, [era]);
 
   const cursorStyles = {
-    cursor: cursorStyle,
+    cursor: 'none',
     position: 'fixed',
-    top: '0',
-    left: '0',
+    top: '-50%', // Adjust this value to position the cursor correctly
+    left: '-50%', // Adjust this value to position the cursor correctly
     width: cursorSize,
     height: cursorSize,
     background: 'transparent',
-    border: cursorBorder, // Set based on the era
+    border: cursorBorder,
     borderRadius: '50%',
   };
 

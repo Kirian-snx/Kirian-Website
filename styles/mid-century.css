@@ -1,18 +1,17 @@
 /* styles/mid-century.css */
 
-body {
-    background-color: #d2d2b3; /* Gray background */
-    font-family: 'Times New Roman', Times, serif; /* Mid-century font-family */
-    color: #666; /* Dark gray text color */
-  }
-  
-  h1 {
-    font-size: 32px; /* Mid-century font size */
-    color: #ff9900; /* Mid-century font color */
-  }
-  
-  p {
-    font-size: 18px; /* Mid-century font size */
-    color: #33cc33; /* Mid-century font color */
-  }
-  
+body.mid-century {
+  background-color: #333; /* Dark gray background */
+  font-family: 'Times New Roman', Times, serif; /* Mid-century font-family */
+  color: #fff; /* White text */
+}
+
+h1.mid-century {
+  font-size: 32px; /* Mid-century font size */
+  color: #ff9900; /* Mid-century font color */
+}
+
+p.mid-century {
+  font-size: 18px; /* Mid-century font size */
+  color: #33cc33; /* Mid-century font color */
+}

@@ -1,23 +1,19 @@
 /* styles/neon-future.css */
 
-/* styles/neon-future.css */
+body.neon-future {
+  background-color: #222; /* Even darker gray background */
+  color: #00ff00; /* Neon green text */
+  font-family: 'Roboto', sans-serif; /* Neon-future font-family */
+}
 
-body {
-    background-color: #111111; /* Gray background */
-    font-family: 'Roboto', sans-serif; /* Neon-future font-family */
-    color: #ccc; /* Light gray text color */
-  }
-  
-  /* Add animations or transitions for neon-future era elements */
-  
-  
-  h1 {
-    font-size: 36px; /* Neon-future font size */
-    color: #ff33cc; /* Neon-future font color */
-  }
-  
-  p {
-    font-size: 20px; /* Neon-future font size */
-    color: #66ccff; /* Neon-future font color */
-  }
-  
+/* Add animations or transitions for neon-future era elements */
+
+h1.neon-future {
+  font-size: 36px; /* Neon-future font size */
+  color: #ff33cc; /* Neon-future font color */
+}
+
+p.neon-future {
+  font-size: 20px; /* Neon-future font size */
+  color: #66ccff; /* Neon-future font color */
+}
